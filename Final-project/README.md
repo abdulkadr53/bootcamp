@@ -1,17 +1,21 @@
-House Prices: Advanced Regression Techniques
+## House Prices: Advanced Regression Techniques
 
 -----
  Overview
 
-This project is based on the Kaggle competition House Prices: Advanced Regression Techniques, where the goal is to predict the final sale price of residential homes in Ames, Iowa using advanced regression techniques and feature engineering.
+This project is Advanced Regression Techniques, where the goal is to analyse the distribution of features and final sale price of residential homes in Ames, Iowa using advanced regression techniques and feature engineering.
 
 The dataset includes a rich variety of numerical, categorical, and ordinal features, making it ideal for exploring data cleaning, feature engineering, and machine learning pipelines.
 -------
 Objective
 
-Build a regression model that accurately predicts house prices based on 79 explanatory variables describing almost every aspect of residential homes.
+The goal of this project is to analyze housing data and understand the factors that influence house prices. The focus is on:
 
-The target variable is: SalePrice → the final price of each house (in USD)
+- Exploratory Data Analysis
+- Feature Engineering
+- Data Preprocessing
+
+This project does NOT include model training and evaluation.
 ------
 **Dataset Description**
 
@@ -46,7 +50,7 @@ Workflow
 -----
 Project structure
 ```
-bootcamp\
+bootcamp/
 |
 ├──Final-project/
      ├──house-price.csv
